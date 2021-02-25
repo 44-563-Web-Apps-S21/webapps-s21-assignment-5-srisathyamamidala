@@ -9,6 +9,21 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <a class="navbar-brand" href="./plants.html">Happy Plants</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav mr-auto">
+       <li class="nav-item active">
+         <a class="nav-link" href="./cat.html">cat<span class="sr-only">(current)</span></a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="./dog.html">dog</a>
+       </li>
+ 
+ </nav>
 <body>
     <h2>Plants by Sathya</h2>
     <div class="container">
@@ -72,7 +87,7 @@
         <img src="magnolia.jpg" alt="thumbnail" class="img-thumbnail" width="300px" height="300px">
     </div>
     <table class="table table-hover table-bordered">
-    <caption>The table below is about cities,plants and food</caption>
+    <caption>The table above is about cities,plants and food</caption>
     <thead class="thead-dark"></thead>  
     <tr class="table-active">
         <th scope="Letter">Letter</th>
@@ -81,6 +96,7 @@
         <th scope="col">Food</th>
           </tr>
         </thead>
+         
         <tbody>
             <tr class="table-primary">
                 <th scope="row">M</th>
@@ -147,6 +163,23 @@
         <a class="dropdown-item" href="./dog.html">dog</a>
       </div>
       </div>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPlant1">Plant</label>
+          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your plant">
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      
       
 </body>
 </html>
